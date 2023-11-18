@@ -1,0 +1,12 @@
+.image {
+    background-color: #282c34;
+    min-height: 20vh;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+    border: 1px solid black;
+    margin: 10px;
+}
